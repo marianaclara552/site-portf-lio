@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Lexend:wght@100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #11062E;
+}
+
+@keyframes linha {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 79%;
+    }
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    position: sticky;
+    top: 0;
+    background-color: #11062E;
+    color: white;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Lexend", sans-serif;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.inicio {
+    color: white;
+    font-size: 2.5rem;
+    font-size: 55px;
+    display: flex;
+    margin-top: 23vh;
+    margin-left: 23vh;
+    font-family: "Lexend Exa", sans-serif;
+}
+
+.bio {
+    color: white;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 23vh;
+    font-size: 18px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 50vh;
+    justify-content: space-between;
+    margin-top: 20vh;
+
+}
+
+.HTML {
+    flex-direction: column;
+    color: white;
+    margin-left: 10%;
+}
+
+.CSS {
+    flex-direction: column;
+    color: white;
+}
+
+.C {
+    flex-direction: column;
+    color: white;
+    width: 217px;
+
+}
+
+.MYSQL {
+    flex-direction: column;
+    color: white;
+    margin-right: 10%;
+}
+
+.meio {
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+}
+
+
+.linha {
+    width: 79%;
+    height: 2px;
+    background-color: #F18928;
+    margin-left: 10%;
+    margin-top: 50vh;
+    animation: linha 5s linear;
+}
+
+
+.linha2 {
+    width: 79%;
+    height: 2px;
+    background-color: #F18928;
+    margin-left: 10%;
+    margin-top: 20vh;
+    animation: linha 5s linear;
+}
+
+#LoremProjetos {
+    color: white;
+    width: 30%;
+    margin-left: 23vh;
+    margin-top: 10vh;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    text-align: justify;
+}
+
+#btnCurriculo {
+    background-color: #F18928;
+    border-radius: 30px;
+    margin-left: 23vh;
+    width: 23vh;
+    height: 5vh;
+    color: white;
+    margin-top: 10vh;
+    border: none;
+}
+
+
+.linha3 {
+    width: 79%;
+    height: 2px;
+    background-color: #F18928;
+    margin-left: 10%;
+    margin-top: 10vh;
+    animation: linha 5s linear;
+}
+
+
+#divEmail {
+    color: white;
+    margin-left: 23vh; 
+    margin-top: 10vh;
+    
+}
+
+#SvgEmail{
+    margin-right: 4vh;
+}
+
+#divTelefone{
+    color: white; 
+    margin-left: 23vh; 
+    margin-top: 2vh;
+}
+
+#divBH{
+    color: white; 
+    margin-left: 23vh; 
+    margin-top: 20vh; 
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+}
+
+.linha3 {
+    width: 79%;
+    height: 2px;
+    background-color: #F18928;
+    margin-left: 10%;
+    margin-top: 10vh;
+    animation: linha 5s linear;
+}
+
+footer 
+{
+    width: 100%;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer 
+{
+    width: 100%;
+    background-color: #09031A;
+    display: flex;
+    flex-direction: row;
+    height: 9vh;
+    justify-content: space-between;
+    margin-top: 7%;
+   
+}
+
+
+
